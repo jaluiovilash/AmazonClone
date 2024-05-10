@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+body {
+    background-color: #eae6e0;
+    color: #0f1111;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 0 15px;
+}
+
+
+.logo a img {
+    width: 5rem;
+    height: auto;
+    margin: 0 10px;
+}
+
+#border {
+    border: 1.5px solid transparent;
+}
+
+
+#border:hover {
+    border: 1.5px solid white;
+}
+
+/* box2 */
+
+.add-first {
+    color: white;
+    font-size: 0.8rem;
+    margin: 0 2.2rem;
+}
+
+.add-second {
+    font-size: 0.9rem;
+    margin: 0 3px;
+}
+
+.add-icon {
+    display: flex;
+    margin: 0 4px;
+}
+
+.add-icon img {
+    height: 2px;
+}
+
+/* box 3 */
+
+.search {
+    display: flex;
+    width: 50rem;
+    height: 2.2rem;
+    border-radius: 4px;
+}
+
+#all {
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-radius: 4px 0 0 4px;
+    border: none;
+    cursor: pointer;
+}
+
+#all:hover {
+    background-color: #dedede;
+}
+
+#search-button {
+    height: 20px;
+}
+
+#search-box {
+    width: 100%;
+    font-size: 0.8rem;
+    border: none;
+    padding: 5px 13px;
+    border-radius: none;
+}
+
+.icon-search {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+    color: black;
+    background-color: #febd68;
+    border-radius: 0 4px 4px 0;
+}
+
+.country {
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.country img {
+    width: 28px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.signin {
+    padding: 8px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    margin: 20px;
+}
+
+.return {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#top-font {
+    font-size: 0.78rem;
+}
+
+#bottom-font {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.cart img {
+    width: 30px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.panel {
+    height: 30px;
+    padding: 3px;
+    background-color: #232F3E;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: #ffffff;
+}
+
+.panel-all {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 5px;
+    cursor: pointer;
+    padding: 9px 12px;
+}
+
+.panel-all span {
+    font-size: 0.82rem;
+    margin-left: 5px;
+}
+
+.options ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options ul li {
+    font-size: 10px;
+    list-style-type: none;
+    margin: 0 5px;
+    font-size: 0.82rem;
+    padding: 9px 7px;
+}
+
+.options a {
+    text-decoration: none;
+    color: white;
+}
+
+/* main body */
+
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    text-align: center;
+    height: 30px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    margin-bottom: 270px;
+}
+
+/* shopping centre */
+
+.shop-section1 {
+    margin: -370px 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.shop-section1 h2{
+    text-align: left;
+    margin-left: 23px;
+    font-size: 14px;
+}
+
+.box {
+    background-color: white;
+    color: black;
+    /* border: 1px solid black; */
+    height: auto;
+    width: 350px;
+    text-align: center;
+    padding: 15px 5px;
+    margin: 20px 10px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 15px 0;
+    padding: 15px 5px;
+}
+
+.product {
+    margin: 0 10px;
+}
+
+.product img {
+    width: auto;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
